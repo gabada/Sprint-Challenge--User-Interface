@@ -34,9 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is useful for accessiblity, readability, and SEO. Instead of having `div` tags all over your HTML and nested you have meaningful tags like `header`, `section`, and `footer` to name a few. This makes it easier for screen readers to read your site to visually impaired people, makes it easier for you and other developers to read your code now and 6 months from now when you've forgotten it, and is said to give a slight bump in SEO.
+<span style=color:red>Semantic HTML is useful for accessibility, readability, and SEO. Instead of having `div` tags all over your HTML and nested you have meaningful tags like `header`, `section`, and `footer` to name a few. This makes it easier for screen readers to read your site to visually impaired people, makes it easier for you and other developers to read your code now and 6 months from now when you've forgotten it, and is said to give a slight bump in SEO.</span>
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+<span style="color:red"> `display:block` uses up as much space as its parent object will allow and `display:inline` objects are nested inside of other elements without disrupting the flow. `<span>` is an example of an `inline` element.<span>
 
 3. What are the 4 areas of the box model?
 
