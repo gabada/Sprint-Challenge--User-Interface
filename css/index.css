@@ -300,6 +300,12 @@ footer nav a {
     margin-bottom: 30px;
 }
 
+.top-content-product {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
 
 /* Animations */
 
@@ -322,6 +328,14 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+
+input[type=submit] {
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 .thanks {
     width: 95%;
     margin: 0 auto;
@@ -331,4 +345,77 @@ input[type=text], select, textarea {
 
 .thanks h1 {
     margin-bottom: 50px;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+  header {
+    flex-flow: column wrap;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  footer nav {
+    width: 40%;
+  }
+
+  .jumbo-imgs {
+    width: 40%;
+  }
+
+  .jumbo-prod {
+    width: 40%;
+  }
+
+  .top-content {
+    width: 40%;
+  }
+
+  .products-content {
+    flex-flow: column wrap;
+    width: 75%;
+  }
+
+  .about-content {
+    flex-flow: column wrap;
+    width: 75%;
+  }
+
+  .facts {
+    flex-flow: column wrap;
+  }
+
+  .facts img {
+    width: 30%;
+  }
+
+  .top-content-about {
+    width: 40%;
+  }
+
+  .top-content-product {
+    width: 40%;
+  }
+
+  .bottom-content {
+    width: 40%;
+  }
+
+  input[type=text], select, textarea {
+    width: 45%;
+  }
+
+  input[type=submit] {
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 80%;
+  }
+
 }
