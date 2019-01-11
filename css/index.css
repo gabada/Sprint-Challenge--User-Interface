@@ -307,3 +307,28 @@ footer nav a {
     from {background-color: black;}
     to {background-color: red;}
 }
+
+
+/* Contact Form */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  resize: vertical;
+}
+
+.thanks {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.thanks h1 {
+    margin-bottom: 50px;
+}
