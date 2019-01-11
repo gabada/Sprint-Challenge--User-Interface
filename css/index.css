@@ -194,6 +194,9 @@ header nav a {
 footer {
     width: 100%;
     background: black;
+    animation-name: footerbackground;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
 }
 
 footer nav {
@@ -295,4 +298,12 @@ footer nav a {
 .jumbo-prod {
     margin-left: 10%;
     margin-bottom: 30px;
+}
+
+
+/* Animations */
+
+@keyframes footerbackground {
+    from {background-color: black;}
+    to {background-color: red;}
 }
