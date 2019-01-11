@@ -211,7 +211,38 @@ footer nav a {
 }
 
 .top-content-about {
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
     margin-bottom: 20px;
     padding-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-content .about-points {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.about-content .about-points h2 {
+    margin-bottom: 10px;
+}
+
+.about-content .about-points button {
+    background: white;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 8px 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
 }
