@@ -256,3 +256,38 @@ footer nav a {
     margin: 0 auto;
     width: 95%;
 }
+
+.products-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.products-content .products-items {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.products-content .products-items img {
+    width: 75%;
+}
+
+.products-content .products-items h2 {
+    margin-bottom: 10px;
+}
+
+.products-content .products-items button {
+    background: white;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 8px 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
