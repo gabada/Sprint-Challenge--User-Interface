@@ -227,7 +227,7 @@ footer nav a {
 .about-content .about-points {
     border-bottom: 1px dashed black;
     width: 48%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-bottom: 20px;
 }
 
@@ -244,5 +244,15 @@ footer nav a {
     border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 15px;
+}
+
+.bottom-content-about {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-content-about .text-container {
+    margin: 0 auto;
+    width: 95%;
 }
