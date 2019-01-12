@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+<span style="color:red">Semantic HTML is useful for accessibility, readability, and SEO. Instead of having `div` tags all over your HTML and nested you have meaningful tags like `header`, `section`, and `footer` to name a few. This makes it easier for screen readers to read your site to visually impaired people, makes it easier for you and other developers to read your code now and 6 months from now when you've forgotten it, and is said to give a slight bump in SEO.</span>
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+<span style="color:red"> `display:block` uses up as much space as its parent object will allow and `display:inline` objects are nested inside of other elements without disrupting the flow. `<span>` is an example of an `inline` element.<span>
 
 3. What are the 4 areas of the box model?
 
+<ul><span style="color:red"><li>Content</li><li>padding</li><li>border</li><li>margin</li></span></ul>
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+<span style="color:red">Cross Axis</span>
+
 5. Explain why git is valuable to a team of developers.
+
+<span style="color:red"> GIT is so valuable to a team of developers because it allows multiple people to work on the same codebase and files simultaneously and then merge the changes without losing any work. It also allows for version control so if someone introduces a bug you can "rewind" to an earlier commit. Another reason which we haven't gone over yet is CI/CD which can be set up so whenever there is a commit to a certain branch it can deploy your project.</span>
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

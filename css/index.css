@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.jumbo-imgs {
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +103,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content-about .text-container {
+    margin: 0 auto;
+    width: 95%;
 }
 
 .middle-content {
@@ -112,6 +137,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +194,9 @@ p {
 footer {
     width: 100%;
     background: black;
+    animation-name: footerbackground;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
 }
 
 footer nav {
@@ -143,4 +211,211 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-content .about-points {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.about-content .about-points h2 {
+    margin-bottom: 10px;
+}
+
+.about-content .about-points button {
+    background: white;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 8px 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.bottom-content-about {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-content-about .text-container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.products-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.products-content .products-items {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.products-content .products-items img {
+    width: 75%;
+}
+
+.products-content .products-items h2 {
+    margin-bottom: 10px;
+}
+
+.products-content .products-items button {
+    background: white;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 8px 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.jumbo-prod {
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.top-content-product {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Animations */
+
+@keyframes footerbackground {
+    from {background-color: black;}
+    to {background-color: red;}
+}
+
+
+/* Contact Form */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.thanks {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.thanks h1 {
+    margin-bottom: 50px;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+  header {
+    flex-flow: column wrap;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  footer nav {
+    width: 40%;
+  }
+
+  .jumbo-imgs {
+    width: 40%;
+  }
+
+  .jumbo-prod {
+    width: 40%;
+  }
+
+  .top-content {
+    width: 40%;
+  }
+
+  .products-content {
+    flex-flow: column wrap;
+    width: 75%;
+  }
+
+  .about-content {
+    flex-flow: column wrap;
+    width: 75%;
+  }
+
+  .facts {
+    flex-flow: column wrap;
+  }
+
+  .facts img {
+    width: 30%;
+  }
+
+  .top-content-about {
+    width: 40%;
+  }
+
+  .top-content-product {
+    width: 40%;
+  }
+
+  .bottom-content {
+    width: 40%;
+  }
+
+  input[type=text], select, textarea {
+    width: 45%;
+  }
+
+  input[type=submit] {
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 80%;
+  }
+
 }
